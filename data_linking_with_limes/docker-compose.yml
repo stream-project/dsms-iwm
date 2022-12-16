@@ -1,0 +1,17 @@
+version: "3"
+services:
+  limes:
+    image: docker.io/dicegroup/limes:latest 
+    container_name: limes
+    volumes:
+       - ./config:/config
+    ports:
+      - 8080:8080
+    restart: always
+    entrypoint: ["java", "--add-opens", "java.base/java.lang=ALL-UNNAMED", "--add-opens", "java.base/java.lang.invoke=ALL-UNNAMED", "-jar", "/limes.jar", "/config/limes_config.xml","-s"]
+    networks:
+      - limes_net
+networks:
+  limes_net:
+    name: limes_net
+    driver: bridge
