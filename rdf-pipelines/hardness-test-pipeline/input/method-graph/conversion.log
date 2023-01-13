@@ -1,0 +1,66 @@
+2022-12-15 13:03:17,822 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, BrinellHardnessMeasurement) ==> EMMO_f9824da8_6001_44f2_981f_2608234d2a67
+2022-12-15 13:03:17,823 - root - INFO - (http://emmo.info/emmo#, hasProperty) ==> EMMO_e1097637_70d2_4895_973f_2396f04fa204
+2022-12-15 13:03:17,823 - root - INFO - (http://emmo.info/emmo#, hasProcessInput) ==> EMMO_36e69413_8c59_4799_946c_10b05d266e22
+2022-12-15 13:03:17,823 - root - INFO - (http://emmo.info/emmo#, hasParticipant) ==> EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a
+2022-12-15 13:03:17,823 - root - INFO - (http://emmo.info/emmo#, hasProcessOutput) ==> EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840
+2022-12-15 13:03:17,823 - root - INFO - (http://tensile-test-method.org#, HardnessTestMeasurement) ==> None
+2022-12-15 13:03:17,823 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, TestForce) ==> EMMO_7467d72a_bf5e_47b8_b66e_52f28ec8180e
+2022-12-15 13:03:17,823 - root - INFO - (http://tensile-test-method.org#, TestForce) ==> None
+2022-12-15 13:03:17,823 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, LoadingTime) ==> EMMO_267f071e_03b4_4d89_a76a_1f88f8647051
+2022-12-15 13:03:17,823 - root - INFO - (http://tensile-test-method.org#, LoadingTime) ==> None
+2022-12-15 13:03:17,823 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, MachineName) ==> EMMO_1a54aed1_292f_4f41_8ae0_942a290cab65
+2022-12-15 13:03:17,823 - root - INFO - (http://tensile-test-method.org#, MachineName) ==> None
+2022-12-15 13:03:17,823 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, Indenter) ==> EMMO_c87a0a71_e220_42b6_afd6_8eab04b83a86
+2022-12-15 13:03:17,824 - root - INFO - (http://tensile-test-method.org#, Indenter) ==> None
+2022-12-15 13:03:17,824 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, OpticalSystem) ==> EMMO_dad0cdb7_8dc8_464f_b839_454bb82b739e
+2022-12-15 13:03:17,824 - root - INFO - (http://tensile-test-method.org#, OpticalSystem) ==> None
+2022-12-15 13:03:17,824 - root - INFO - (http://emmo.info/emmo#, hasProperty) ==> EMMO_e1097637_70d2_4895_973f_2396f04fa204
+2022-12-15 13:03:17,824 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, HardnessTestingMachine) ==> EMMO_c573f186_c1df_4844_a4c6_9836d103f28a
+2022-12-15 13:03:17,824 - root - INFO - (http://emmo.info/emmo#, hasSign) ==> EMMO_60577dea_9019_4537_ac41_80b0fb563d41
+2022-12-15 13:03:17,824 - root - INFO - (http://emmo.info/emmo#, hasPart) ==> EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f
+2022-12-15 13:03:17,824 - root - INFO - (http://emmo.info/emmo#, hasPart) ==> EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f
+2022-12-15 13:03:17,824 - root - INFO - (http://tensile-test-method.org#, HardnessTestingMachine) ==> None
+2022-12-15 13:03:17,824 - root - INFO - (http://emmo.info/emmo/domain/mechanical-testing#, ShortName) ==> EMMO_71200c24_44fe_4533_96be_55ecb299681c
+2022-12-15 13:03:17,824 - root - INFO - (http://tensile-test-method.org#, ShortName) ==> None
+2022-12-15 13:03:17,824 - root - INFO - (http://emmo.info/emmo#, hasSpatialDirectPart) ==> EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe
+2022-12-15 13:03:17,824 - root - INFO - (http://emmo.info/emmo#, hasSpatialDirectPart) ==> EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe
+2022-12-15 13:03:17,825 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, AverageBrinellHardness) ==> EMMO_a84ff0d1_39c9_4aab_b4a7_8fd19b186ce5
+2022-12-15 13:03:17,825 - root - INFO - (http://tensile-test-method.org#, AverageBrinellHardness) ==> None
+2022-12-15 13:03:17,825 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, HardnessBrinell) ==> EMMO_89a32e21_7b1f_4354_9615_e1d0a8810596
+2022-12-15 13:03:17,825 - root - INFO - (http://emmo.info/emmo#, hasSign) ==> EMMO_60577dea_9019_4537_ac41_80b0fb563d41
+2022-12-15 13:03:17,825 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, MeasurementID) ==> EMMO_ac7c33de_f819_4b53_86c8_dc0d18caa602
+2022-12-15 13:03:17,825 - root - INFO - (http://tensile-test-method.org#, MeasurementID) ==> None
+2022-12-15 13:03:17,825 - root - INFO - (http://emmo.info/emmo#, hasSign) ==> EMMO_60577dea_9019_4537_ac41_80b0fb563d41
+2022-12-15 13:03:17,825 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, IndenterName) ==> EMMO_a8cc3da7_6b06_4e2e_8b61_6d35ec480555
+2022-12-15 13:03:17,825 - root - INFO - (http://tensile-test-method.org#, IndenterName) ==> None
+2022-12-15 13:03:17,825 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, OpticalSystemName) ==> EMMO_152492fa_7392_4818_8ed2_4fdac19de0e1
+2022-12-15 13:03:17,825 - root - INFO - (http://tensile-test-method.org#, OpticalSystemName) ==> None
+2022-12-15 13:03:17,825 - root - INFO - (http://emmo.info/emmo#, hasSign) ==> EMMO_60577dea_9019_4537_ac41_80b0fb563d41
+2022-12-15 13:03:17,826 - root - INFO - (http://emmo.info/emmo#, hasProperty) ==> EMMO_e1097637_70d2_4895_973f_2396f04fa204
+2022-12-15 13:03:17,826 - root - INFO - (http://emmo.info/emmo#, DataSet) ==> EMMO_194e367c_9783_4bf5_96d0_9ad597d48d9a
+2022-12-15 13:03:17,826 - root - INFO - (http://tensile-test-method.org#, MeasurementTime) ==> None
+2022-12-15 13:03:17,826 - root - INFO - ( http://emmo.info/emmo/domain/chameo/chameo#, hasMeasurementTime) ==> None
+2022-12-15 13:03:17,826 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, hasMeasurementResult) ==> EMMO_b2ee8543_b055_4fac_a422_905f993d223e
+2022-12-15 13:03:17,826 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, hasMeasurementResult) ==> EMMO_b2ee8543_b055_4fac_a422_905f993d223e
+2022-12-15 13:03:17,826 - root - INFO - (http://emmo.info/emmo#, hasSign) ==> EMMO_60577dea_9019_4537_ac41_80b0fb563d41
+2022-12-15 13:03:17,826 - root - INFO - (http://emmo.info/emmo/domain/mechanical-testing#, SpecimenID) ==> EMMO_4d5b1eee_cda4_4bc7_8a0e_612fcf7f0c82
+2022-12-15 13:03:17,826 - root - INFO - (http://tensile-test-method.org#, SpecimenID) ==> None
+2022-12-15 13:03:17,826 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, HardnessDataSet) ==> EMMO_efffce94_70e4_4cb1_8d55_c0b23b2a3e27
+2022-12-15 13:03:17,827 - root - INFO - (http://tensile-test-method.org#, HardnessDataSet) ==> None
+2022-12-15 13:03:17,827 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, HardnessTestSpecimen) ==> EMMO_06d09ad3_3834_4c0e_8249_0a6869ebc703
+2022-12-15 13:03:17,827 - root - INFO - (http://tensile-test-method.org#, HardnessTestSpecimen) ==> None
+2022-12-15 13:03:17,827 - root - INFO - (http://emmo.info/emmo/domain/mechanical-testing#, Specimen) ==> EMMO_535baaec_5360_48e8_ada4_72c6e6848957
+2022-12-15 13:03:17,827 - root - INFO - (http://emmo.info/emmo#, hasProperty) ==> EMMO_e1097637_70d2_4895_973f_2396f04fa204
+2022-12-15 13:03:17,827 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, IndenterDiameter) ==> EMMO_27ea1994_5afe_4588_b980_f39ecf1e3392
+2022-12-15 13:03:17,827 - root - INFO - (http://tensile-test-method.org#, IndenterDiameter) ==> None
+2022-12-15 13:03:17,827 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, HardnessBrinell) ==> EMMO_89a32e21_7b1f_4354_9615_e1d0a8810596
+2022-12-15 13:03:17,827 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, HardnessBrinell) ==> EMMO_89a32e21_7b1f_4354_9615_e1d0a8810596
+2022-12-15 13:03:17,827 - root - INFO - (http://emmo.info/emmo#, hasSpatialDirectPart) ==> EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe
+2022-12-15 13:03:17,827 - root - INFO - (http://emmo.info/emmo#, hasSpatialDirectPart) ==> EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe
+2022-12-15 13:03:17,827 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, hasMeasurementResult) ==> EMMO_b2ee8543_b055_4fac_a422_905f993d223e
+2022-12-15 13:03:17,827 - root - INFO - (http://emmo.info/application/hardnesstest-ontology#, hasMeasurementResult) ==> EMMO_b2ee8543_b055_4fac_a422_905f993d223e
+2022-12-15 13:03:17,828 - root - INFO - Chowlk command python /root/data2rdf/data2rdf/Chowlk/converter.py /root/stream-pipeline/harness-test-pipeline/input/method-graph/stream--hardness_test_method.drawio/stream--hardness_test_method.drawio.mod.xml /root/stream-pipeline/harness-test-pipeline/input/method-graph/stream--hardness_test_method.drawio/stream--hardness_test_method.drawio.mod.ttl --type ontology --format ttl
+2022-12-15 13:03:18,317 - root - INFO - Chowlk output:
+2022-12-15 13:03:18,318 - root - INFO - 
+2022-12-15 13:03:18,318 - root - ERROR - 
+2022-12-15 13:03:19,282 - numexpr.utils - INFO - NumExpr defaulting to 2 threads.

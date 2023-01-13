@@ -1,0 +1,266 @@
+@prefix chameo: <http://emmo.info/emmo/domain/chameo/chameo#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix emmo: <http://emmo.info/emmo#> .
+@prefix method: <http://tensile-test-method.org#> .
+@prefix mt: <http://emmo.info/emmo/domain/mechanical-testing#> .
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix stream: <http://emmo.info/application/tensiletest-ontology#> .
+
+stream:EMMO_b2ee8543_b055_4fac_a422_905f993d223e a owl:ObjectProperty ;
+    ns1:prefLabel "hasMeasurementResult"@en .
+
+emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f a owl:ObjectProperty ;
+    ns1:prefLabel "hasPart"@en .
+
+emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 a owl:ObjectProperty ;
+    ns1:prefLabel "hasProcessInput"@en .
+
+emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 a owl:ObjectProperty ;
+    ns1:prefLabel "hasSign"@en .
+
+emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a a owl:ObjectProperty ;
+    ns1:prefLabel "hasParticipant"@en .
+
+emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe a owl:ObjectProperty ;
+    ns1:prefLabel "hasSpatialDirectPart"@en .
+
+emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 a owl:ObjectProperty ;
+    ns1:prefLabel "hasProcessOutput"@en .
+
+emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 a owl:ObjectProperty ;
+    ns1:prefLabel "hasProperty"@en .
+
+chameo:hasMeasurementTime a owl:ObjectProperty ;
+    ns1:prefLabel "hasMeasurementTime" .
+
+method:TensileTest a stream:EMMO_1e0361ff_2128_42d7_8176_8f717bdcd042,
+        owl:NamedIndividual ;
+    rdfs:label "TensileTest" ;
+    stream:EMMO_b2ee8543_b055_4fac_a422_905f993d223e method:ChangeInLength,
+        method:Elongation,
+        method:FractureStrain,
+        method:MeasurementTime,
+        method:RP0.2,
+        method:StrainRate,
+        method:Stress,
+        method:TensileForce,
+        method:TensileStrength,
+        method:YoungsModulus ;
+    emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 method:TensileTestSpecimen ;
+    emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 method:MeasurementID ;
+    emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a method:UniversalTestingMachine ;
+    emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 method:TensileTestDataSet ;
+    emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 method:CrossHeadSeparationRate,
+        method:OriginalGaugeLength ;
+    chameo:hasMeasurementTime method:StartTime .
+
+rdfs: a owl:Ontology ;
+    dc:creator "IWM MI-Team" ;
+    dc:description "Ontology code created by Chowlk" ;
+    dc:title "EMMO ABox minimal" ;
+    owl:versionInfo "0.0.1" .
+
+stream:EMMO_097da009_ed68_423e_8d20_0981dd0526fe a owl:Class ;
+    ns1:prefLabel "OpticalStrainMeasurementSystem"@en .
+
+stream:EMMO_0996dc13_01d6_4083_b7ea_efe74e6bc4ae a owl:Class ;
+    ns1:prefLabel "OpticalStrainMeasurementSystemID"@de .
+
+stream:EMMO_1e0361ff_2128_42d7_8176_8f717bdcd042 a owl:Class ;
+    ns1:prefLabel "TensileTest"@en .
+
+stream:EMMO_26ff13f6_3313_42b5_b4ae_55447d672142 a owl:Class ;
+    ns1:prefLabel "SpecimenDiameter"@en .
+
+stream:EMMO_2a4945ff_52b5_49a5_bcd7_a2023f91d37e a owl:Class ;
+    ns1:prefLabel "TensileTestSubDataSet"@en .
+
+stream:EMMO_65bdf822_f70d_4a7e_9810_e1f80c54771a a owl:Class ;
+    ns1:prefLabel "TensileTestSpecimen"@en .
+
+stream:EMMO_78da5c16_4ead_4670_ae9a_110183e044b5 a owl:Class ;
+    ns1:prefLabel "StrainRate"@en .
+
+stream:EMMO_79f22d6c_ebfd_463f_a836_f0e15ef09fb3 a owl:Class ;
+    ns1:prefLabel "Elongation"@en .
+
+stream:EMMO_7eaec24a_cd46_4201_a98f_0342c0c15648 a owl:Class ;
+    rdfs:subClassOf emmo:EMMO_194e367c_9783_4bf5_96d0_9ad597d48d9a ;
+    ns1:prefLabel "TensileTestDataSet"@en .
+
+stream:EMMO_83ae150c_a668_4e9b_a2ca_534a1269af78 a owl:Class ;
+    ns1:prefLabel "LoadCell"@en .
+
+stream:EMMO_931c1f04_8d91_4861_a7fa_8cc2521de6b1 a owl:Class ;
+    ns1:prefLabel "ChangeInLength"@en .
+
+stream:EMMO_a8eb1cac_6081_4fe6_b76a_d0e6494f624a a owl:Class ;
+    ns1:prefLabel "MachineID"@en .
+
+stream:EMMO_ae89cac3_81d4_46f3_b71d_7e86f2309597 a owl:Class ;
+    ns1:prefLabel "TensileForce"@en .
+
+stream:EMMO_b385f896_b172_4fbc_b5bb_e5bb3b8786d9 a owl:Class ;
+    ns1:prefLabel "LoadCellID"@de .
+
+stream:EMMO_cc991b0b_aa4c_4ea7_bb00_f5d0a2445ea1 a owl:Class ;
+    ns1:prefLabel "UniversalTestingMachine"@en .
+
+stream:EMMO_f635dfb1_09bd_4d38_bc32_e972ff258a1a a owl:Class ;
+    ns1:prefLabel "MeasurementID"@en .
+
+emmo:EMMO_194e367c_9783_4bf5_96d0_9ad597d48d9a a owl:Class ;
+    ns1:prefLabel "DataSet"@en .
+
+emmo:EMMO_4d5b1eee_cda4_4bc7_8a0e_612fcf7f0c82 a owl:Class ;
+    ns1:prefLabel "SpecimenID"@en .
+
+emmo:EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81 a owl:Class ;
+    ns1:prefLabel "Stress"@en .
+
+mt:EMMO_2aa65ba7_afb2_4deb_b566_3e2c25a89feb a owl:Class ;
+    ns1:prefLabel "FractureStrain"@en .
+
+mt:EMMO_44c9b071_54a1_4366_84e4_b14b055ec633 a owl:Class ;
+    ns1:prefLabel "RP0.2"@en .
+
+mt:EMMO_71200c24_44fe_4533_96be_55ecb299681c a owl:Class ;
+    ns1:prefLabel "ShortName"@en .
+
+mt:EMMO_7dc73553_7d3f_4dc2_bb7b_f47775207457 a owl:Class ;
+    ns1:prefLabel "YoungsModulus"@en .
+
+mt:EMMO_926d14c7_4f78_4c37_99b4_dfb0a531db64 a owl:Class ;
+    ns1:prefLabel "TensileStrength"@en .
+
+method:CrossHeadSeparationRate a stream:EMMO_e5b8912b_f37f_4491_bc98_210ac7415fe4,
+        owl:NamedIndividual ;
+    rdfs:label "CrossHeadSeparationRate" .
+
+method:LoadCell a stream:EMMO_83ae150c_a668_4e9b_a2ca_534a1269af78,
+        owl:NamedIndividual ;
+    rdfs:label "LoadCell" ;
+    emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 method:LoadCellID .
+
+method:LoadCellID a stream:EMMO_b385f896_b172_4fbc_b5bb_e5bb3b8786d9,
+        owl:NamedIndividual ;
+    rdfs:label "LoadCellID" .
+
+method:MachineID a stream:EMMO_a8eb1cac_6081_4fe6_b76a_d0e6494f624a,
+        owl:NamedIndividual ;
+    rdfs:label "MachineID" .
+
+method:MeasurementID a stream:EMMO_f635dfb1_09bd_4d38_bc32_e972ff258a1a,
+        owl:NamedIndividual ;
+    rdfs:label "MeasurementID" .
+
+method:OpticalStrainMeasurementSystem a stream:EMMO_097da009_ed68_423e_8d20_0981dd0526fe,
+        owl:NamedIndividual ;
+    rdfs:label "OpticalStrainMeasurementSystem" ;
+    emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 method:OpticalStrainMeasurementSystemID .
+
+method:OpticalStrainMeasurementSystemID a stream:EMMO_0996dc13_01d6_4083_b7ea_efe74e6bc4ae,
+        owl:NamedIndividual ;
+    rdfs:label "OpticalStrainMeasurementSystemID" .
+
+method:OriginalGaugeLength a stream:EMMO_e5b8912b_f37f_4491_bc98_210ac7415fe4,
+        owl:NamedIndividual ;
+    rdfs:label "OriginalGaugeLength" .
+
+method:ShortName a mt:EMMO_71200c24_44fe_4533_96be_55ecb299681c,
+        owl:NamedIndividual ;
+    rdfs:label "ShortName" .
+
+method:SpecimenDiameter a stream:EMMO_26ff13f6_3313_42b5_b4ae_55447d672142,
+        owl:NamedIndividual ;
+    rdfs:label "SpecimenDiameter" .
+
+method:SpecimenID a emmo:EMMO_4d5b1eee_cda4_4bc7_8a0e_612fcf7f0c82,
+        owl:NamedIndividual ;
+    rdfs:label "SpecimenID" .
+
+method:StartTime a chameo:MeasurementTime,
+        owl:NamedIndividual ;
+    rdfs:label "StartTime" .
+
+method:TensileTestDataSet a stream:EMMO_7eaec24a_cd46_4201_a98f_0342c0c15648,
+        owl:NamedIndividual ;
+    rdfs:label "TensileTestDataSet" ;
+    emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe method:TensileTestSubDataSet .
+
+method:TensileTestSpecimen a stream:EMMO_65bdf822_f70d_4a7e_9810_e1f80c54771a,
+        owl:NamedIndividual ;
+    rdfs:label "TensileTestSpecimen" ;
+    emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 method:SpecimenID ;
+    emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 method:ShortName,
+        method:SpecimenDiameter .
+
+method:TensileTestSubDataSet a stream:EMMO_2a4945ff_52b5_49a5_bcd7_a2023f91d37e,
+        owl:NamedIndividual ;
+    rdfs:label "TensileTestSubDataSet" ;
+    emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe method:ChangeInLength,
+        method:Elongation,
+        method:FractureStrain,
+        method:MeasurementTime,
+        method:RP0.2,
+        method:StrainRate,
+        method:Stress,
+        method:TensileForce,
+        method:TensileStrength,
+        method:YoungsModulus .
+
+method:UniversalTestingMachine a stream:EMMO_cc991b0b_aa4c_4ea7_bb00_f5d0a2445ea1,
+        owl:NamedIndividual ;
+    rdfs:label "UniversalTestingMachine" ;
+    emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f method:LoadCell,
+        method:OpticalStrainMeasurementSystem ;
+    emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 method:MachineID .
+
+stream:EMMO_e5b8912b_f37f_4491_bc98_210ac7415fe4 a owl:Class ;
+    ns1:prefLabel "TensileTestParameter"@en .
+
+chameo:MeasurementTime a owl:Class ;
+    ns1:prefLabel "Measurement Time"@en .
+
+method:ChangeInLength a stream:EMMO_931c1f04_8d91_4861_a7fa_8cc2521de6b1,
+        owl:NamedIndividual ;
+    rdfs:label "ChangeInLength" .
+
+method:Elongation a stream:EMMO_79f22d6c_ebfd_463f_a836_f0e15ef09fb3,
+        owl:NamedIndividual ;
+    rdfs:label "Elongation" .
+
+method:FractureStrain a mt:EMMO_2aa65ba7_afb2_4deb_b566_3e2c25a89feb,
+        owl:NamedIndividual ;
+    rdfs:label "FractureStrain" .
+
+method:MeasurementTime a chameo:MeasurementTime,
+        owl:NamedIndividual ;
+    rdfs:label "MeasurementTime" .
+
+method:RP0.2 a mt:EMMO_44c9b071_54a1_4366_84e4_b14b055ec633,
+        owl:NamedIndividual ;
+    rdfs:label "RP0.2" .
+
+method:StrainRate a stream:EMMO_78da5c16_4ead_4670_ae9a_110183e044b5,
+        owl:NamedIndividual ;
+    rdfs:label "StrainRate" .
+
+method:Stress a emmo:EMMO_d1917609_db5e_4b8a_9b76_ef1d6f860a81,
+        owl:NamedIndividual ;
+    rdfs:label "Stress" .
+
+method:TensileForce a stream:EMMO_ae89cac3_81d4_46f3_b71d_7e86f2309597,
+        owl:NamedIndividual ;
+    rdfs:label "TensileForce" .
+
+method:TensileStrength a mt:EMMO_926d14c7_4f78_4c37_99b4_dfb0a531db64,
+        owl:NamedIndividual ;
+    rdfs:label "TensileStrength" .
+
+method:YoungsModulus a mt:EMMO_7dc73553_7d3f_4dc2_bb7b_f47775207457,
+        owl:NamedIndividual ;
+    rdfs:label "YoungsModulus" .
+

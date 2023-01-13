@@ -1,0 +1,1277 @@
+@prefix dcat2: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://dsms.stream-dataspace.net/catalog> a dcat2:Catalog ;
+    dcat2:dataset <https://dsms.stream-dataspace.net/dataset/ARI_Al27_S4_R1> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al15_S2_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#27fa781e-f4ab-4178-9d2d-2911a2e45890> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al15_S2_Z" ;
+    dcterms:issued "2022-12-15T14:02:53.482363+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2019-10-31" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#27fa781e-f4ab-4178-9d2d-2911a2e45890> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#be17ba6b-172f-4655-a113-c73c82ef9b54> ;
+    dcterms:title "STREAM_ARI_Al15_S2_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#dd99d69a-efb0-407d-b668-8033e351cd60> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#afd52d9d-4054-44e3-8adb-542e0b6e4b59> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al15_S4_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#a3008a4c-1532-4952-b4f3-c10a1b218591> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al15_S4_Z" ;
+    dcterms:issued "2022-12-15T14:02:52.364509+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2022-12-15T14:02:52.364509+01:00" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#a3008a4c-1532-4952-b4f3-c10a1b218591> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#4a6f3b67-d3c0-499c-a720-757f6af4b231> ;
+    dcterms:title "STREAM_ARI_Al15_S4_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#78cb849c-e72d-4d4b-97ee-2365d12cb8d6> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#ab58c841-cb32-4667-82d2-964f8b9412aa> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al16_S1_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#ffd5e2d2-fd44-48dc-9612-0fa11cc54d4d> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al16_S1_Z" ;
+    dcterms:issued "2022-12-15T14:02:53.917659+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2019-10-31" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#ffd5e2d2-fd44-48dc-9612-0fa11cc54d4d> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#a4e8edf5-2fc5-438d-b35b-22347b611577> ;
+    dcterms:title "STREAM_ARI_Al16_S1_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#727c75dc-eaf3-4f03-9962-a136dc9d0fbe> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#377087ed-7ace-41f4-a076-6fde9d261b21> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al16_S2_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#9a63e4c3-b893-4b85-90a6-b8c93979b7a9> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al16_S2_Z" ;
+    dcterms:issued "2022-12-15T14:02:53.327676+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2019-10-31" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#9a63e4c3-b893-4b85-90a6-b8c93979b7a9> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#39e54d00-daaa-432a-85b5-1edee9a0e10d> ;
+    dcterms:title "STREAM_ARI_Al16_S2_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#49ca2c55-0372-4016-b567-a81817549a9f> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#591b54ae-dffc-4278-ac15-04a790edd5f8> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al16_S3_R1> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#81481e36-4e50-45d7-95b7-735a8f98c6b8> ;
+    dcterms:description "This is an indentation test dataset." ;
+    dcterms:identifier "ARI_Al16_S3_R1" ;
+    dcterms:issued "2022-12-15T14:02:55.911369+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2020-03-24" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#e0e19766-ee76-4f5e-94af-920e8298b2dc> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#496050b1-d12e-4f64-a399-9c5572fe42cf> ;
+    dcterms:title "STREAM_ARI_Al16_S3_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#b5dabbad-03d9-47c6-b47b-1e7973364f09> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#7ba391a9-298d-45fb-ab70-15c16b5c6c40> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al16_S3_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#69f3f625-7e7e-440a-bbb4-69f68a5c8e80> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al16_S3_Z" ;
+    dcterms:issued "2022-12-15T14:02:52.201927+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2022-12-15T14:02:52.201927+01:00" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#69f3f625-7e7e-440a-bbb4-69f68a5c8e80> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#d4938018-9427-4df9-ab1f-d01a60ed7d77> ;
+    dcterms:title "STREAM_ARI_Al16_S3_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#dddc1e2f-5765-4148-8b02-66b52c4b8075> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#817b3a3c-3ebf-4d46-a3ef-b4e4762c8b87> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al16_S4_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#5cc28d39-46e9-4c26-bd32-16163428280f> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al16_S4_Z" ;
+    dcterms:issued "2022-12-15T14:02:53.182251+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2022-12-15T14:02:53.182251+01:00" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#5cc28d39-46e9-4c26-bd32-16163428280f> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#4fe45c13-c28b-43aa-9a67-c5d72c4fb89e> ;
+    dcterms:title "STREAM_ARI_Al16_S4_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#4c1225b0-8814-4c7e-b98c-9abff02d0799> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#b4c81dc7-d9f5-481d-b24d-eb17a1eec425> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al17_S2_R1b> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#9c3680d0-53e4-46ce-8504-37f76d0619ae> ;
+    dcterms:description "This is an indentation test dataset." ;
+    dcterms:identifier "ARI_Al17_S2_R1b" ;
+    dcterms:issued "2022-12-15T14:02:56.828502+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2019-11-29" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#ece70d3f-55b7-49f1-a25d-6add3ecb8ba0> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#40250d98-6ff8-43eb-ba7b-f27a7942a190> ;
+    dcterms:title "STREAM_ARI_Al17_S2_R1b_IWM_BrinellIndentation.xlsx" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#d2c6a490-d867-4967-b530-63c47c9ffad9> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#a3eae8d9-6aec-4b9c-b23d-bc48bd4d6d08> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al17_S2_R2b> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#b7c3fcc9-4190-4986-9036-99d964b54e7c> ;
+    dcterms:description "This is an indentation test dataset." ;
+    dcterms:identifier "ARI_Al17_S2_R2b" ;
+    dcterms:issued "2022-12-15T14:02:57.106061+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2019-11-29" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#0ba349a2-255f-4d35-bf28-d12655d05df6> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#54517dda-4760-4f91-a212-c56e8a9fbd34> ;
+    dcterms:title "STREAM_ARI_Al17_S2_R2b_IWM_BrinellIndentation.xlsx" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#13038440-ad46-407f-83cb-3c2d04c7cc7e> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#97021918-dda0-4496-9c8f-dac654617421> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al17_S2_R4b> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#7fd43f17-5e94-472c-97d8-603cf2385be0> ;
+    dcterms:description "This is an indentation test dataset." ;
+    dcterms:identifier "ARI_Al17_S2_R4b" ;
+    dcterms:issued "2022-12-15T14:02:54.230237+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2019-11-29" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#0836db74-2f25-4924-b7ce-b11761745844> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#1d660334-abfa-4b9d-8d71-be97c651fe85> ;
+    dcterms:title "STREAM_ARI_Al17_S2_R4b_IWM_BrinellIndentation.xlsx" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#7bfaa54e-899a-4e6e-9152-e35187be9462> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#192e5b10-9084-445c-9b09-d1971bfaf2fd> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al17_S2_R5b> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#aad6839d-da0e-4925-a58d-2aa96cafcb0e> ;
+    dcterms:description "This is an indentation test dataset." ;
+    dcterms:identifier "ARI_Al17_S2_R5b" ;
+    dcterms:issued "2022-12-15T14:02:54.596836+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2019-11-29" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#b0e661c7-3e1b-4ad3-a388-8c95ac4047d7> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#8b570fcf-50c7-4e73-9cc7-a1abcfeb0001> ;
+    dcterms:title "STREAM_ARI_Al17_S2_R5b_IWM_BrinellIndentation.xlsx" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#752d3ba8-58ae-4f54-b903-d89468bb003f> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#46bdc485-ad7d-45de-beb1-063d3e31f9ab> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al17_S2_R6b> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#cba41d78-ddb5-4598-a648-685e0c457021> ;
+    dcterms:description "This is an indentation test dataset." ;
+    dcterms:identifier "ARI_Al17_S2_R6b" ;
+    dcterms:issued "2022-12-15T14:02:55.210419+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2019-11-29" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#06bad9fb-7b42-4b30-a71f-55c52fd059e6> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#aa5b5d3c-15c0-4dcb-8bf0-631470af2aad> ;
+    dcterms:title "STREAM_ARI_Al17_S2_R6b_IWM_BrinellIndentation.xlsx" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#71dbc7b7-4e0d-476d-ad09-352e78dddc67> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#b8c28ede-a5fb-442e-83b3-53c1abbc49dd> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al17_S4_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#8c4debf2-ba59-4eb4-b5d8-f26e2927f88f> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al17_S4_Z" ;
+    dcterms:issued "2022-12-15T14:02:52.556815+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2022-12-15T14:02:52.556815+01:00" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#8c4debf2-ba59-4eb4-b5d8-f26e2927f88f> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#dcafd1df-2cfd-4951-93ce-c98527b5878d> ;
+    dcterms:title "STREAM_ARI_Al17_S4_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#38203e32-07e4-4cf2-b4cb-600051bc7254> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#4ad070e8-1152-4c07-98a0-674c4c88e20c> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al20_S2_R1> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#52d873cd-a297-4c0c-bbaa-29619ec30de7> ;
+    dcterms:description "This is an indentation test dataset." ;
+    dcterms:identifier "ARI_Al20_S2_R1" ;
+    dcterms:issued "2022-12-15T14:02:56.171687+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2020-03-24" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#bf6f564e-5f32-4502-af52-847027cf8a7b> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#01d1ea19-95d2-4662-b8e3-921c119b61f1> ;
+    dcterms:title "STREAM_ARI_Al20_S2_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#f0e1ff40-cebd-4ab3-a516-6dbb010a99e0> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#9c6d3b8d-4f2d-4fe3-b426-30a64739b90a> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al20_S2_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#c2e9217a-71d2-44e1-bc1f-6d0b6f574ac5> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al20_S2_Z" ;
+    dcterms:issued "2022-12-15T14:02:52.667019+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2022-12-15T14:02:52.667019+01:00" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#c2e9217a-71d2-44e1-bc1f-6d0b6f574ac5> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#93d7036c-1075-422b-bea9-d3841e3f063f> ;
+    dcterms:title "STREAM_ARI_Al20_S2_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#024e0158-4317-449c-95ba-a19345b4746f> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#14a65b29-243c-4654-9323-d59611745b97> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al20_S3_R1> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#c5a7f4e8-0452-41da-8be6-81824f79faf9> ;
+    dcterms:description "This is an indentation test dataset." ;
+    dcterms:identifier "ARI_Al20_S3_R1" ;
+    dcterms:issued "2022-12-15T14:02:55.434494+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2020-03-24" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#12643973-efaa-4ac2-8d82-716d775cbd89> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#176b4d1b-8b23-4999-a209-096d55e4f487> ;
+    dcterms:title "STREAM_ARI_Al20_S3_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#40317ca8-d2f1-42bf-a82a-d75499486a61> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#7d212156-fdf0-4b31-bb34-e0e19999f8cb> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al20_S3_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#8b92417e-438f-4a79-b94b-e0fa8ee31170> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al20_S3_Z" ;
+    dcterms:issued "2022-12-15T14:02:52.457993+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2022-12-15T14:02:52.457993+01:00" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#8b92417e-438f-4a79-b94b-e0fa8ee31170> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#28d78736-a263-4b32-a418-4fbd5250241f> ;
+    dcterms:title "STREAM_ARI_Al20_S3_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#5baa8170-bc33-4901-86b1-296fec1d7cd0> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#a467ba84-d151-4625-a8b3-b8d40f169a80> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al20_S4_R1> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#ac71b62b-88f4-4046-9b05-b2296343282f> ;
+    dcterms:description "This is an indentation test dataset." ;
+    dcterms:identifier "ARI_Al20_S4_R1" ;
+    dcterms:issued "2022-12-15T14:02:54.071063+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2020-03-24" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#9b6c973c-8e1d-48bf-93a9-c4e9828d83f4> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#411abd1f-f0b3-464a-b64b-eabc62601ab2> ;
+    dcterms:title "STREAM_ARI_Al20_S4_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#17eea974-421c-4d82-8356-2313fe43135a> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#166fe6c3-07ff-4bb5-8614-2ee6180cb31e> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al20_S4_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#e04f6a4f-2f2d-40ab-b8bc-86d3e526573d> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al20_S4_Z" ;
+    dcterms:issued "2022-12-15T14:02:51.737893+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2022-12-15T14:02:51.737893+01:00" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#e04f6a4f-2f2d-40ab-b8bc-86d3e526573d> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#1f13b386-e901-47ce-88f2-b16e37dc0c98> ;
+    dcterms:title "STREAM_ARI_Al20_S4_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#748d34a6-90be-467d-bb28-50a78ad08155> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#847fd400-babc-4b3f-a9bc-d12c5940e690> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al23_S2_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#edecb655-6043-4fc1-a8fc-878332ef0b44> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al23_S2_Z" ;
+    dcterms:issued "2022-12-15T14:02:52.782970+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2022-12-15T14:02:52.782970+01:00" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#edecb655-6043-4fc1-a8fc-878332ef0b44> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#60d9ca25-196e-4555-b0eb-ceb7a542c1d0> ;
+    dcterms:title "STREAM_ARI_Al23_S2_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#b3fa990f-fdf8-4ced-b6aa-f5ef0e1d934b> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#f5c3b9fe-ccc3-4387-8fc5-f36200844c3f> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al23_S3_R1> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#fa103dee-1f1e-43ce-a6de-ebaaf13b0238> ;
+    dcterms:description "This is an indentation test dataset." ;
+    dcterms:identifier "ARI_Al23_S3_R1" ;
+    dcterms:issued "2022-12-15T14:02:54.994345+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2020-03-24" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#51a9093f-836b-4bd7-8b1a-15ed3af5dfea> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#6778cfc6-c3f1-41b9-a90b-2b5f4d18d9fb> ;
+    dcterms:title "STREAM_ARI_Al23_S3_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#af4ba7b1-ed5d-46b1-a032-c79e5c3c9c1e> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#df9c5985-263d-4fe7-b2e2-f703257eb405> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al23_S3_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#cb63a70c-9389-42ab-9c18-300fa6bed84a> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al23_S3_Z" ;
+    dcterms:issued "2022-12-15T14:02:53.743970+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2022-12-15T14:02:53.743970+01:00" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#cb63a70c-9389-42ab-9c18-300fa6bed84a> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#f4e1b245-66e9-4517-8e70-1ede29f9fbb2> ;
+    dcterms:title "STREAM_ARI_Al23_S3_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#3f6e4cb8-22df-4904-901e-7cd8c2798705> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#73c9bb2b-9ed8-43d3-af25-c2c329a321d0> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al23_S4_R1> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#b42e70e7-be5b-4851-994e-c7e406f0c11a> ;
+    dcterms:description "This is an indentation test dataset." ;
+    dcterms:identifier "ARI_Al23_S4_R1" ;
+    dcterms:issued "2022-12-15T14:02:54.792688+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2020-03-24" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#71dda21e-8ad1-4e26-8cdd-445f7f6cc891> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#90ffb01c-2d79-44f8-94b5-12d916b8b8ae> ;
+    dcterms:title "STREAM_ARI_Al23_S4_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#29bae3a4-897b-49a1-a0e8-c221444eb657> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#94af4efb-2f5c-4135-81ee-905ebc81517f> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al23_S4_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#0c983331-425c-4195-b2fb-3d8640cc3b01> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al23_S4_Z" ;
+    dcterms:issued "2022-12-15T14:02:52.912642+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2022-12-15T14:02:52.912642+01:00" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#0c983331-425c-4195-b2fb-3d8640cc3b01> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#d4e5e6a2-84d1-405c-9a08-ef271adeab59> ;
+    dcterms:title "STREAM_ARI_Al23_S4_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#5fd7dded-6a66-455c-a17b-bcc75e41ff05> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#c03354f7-e66e-4ed0-8e0b-0440c7347cb5> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al25_S2_R1> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#1b889ef6-7a96-489b-918b-2cf8bbc82b72> ;
+    dcterms:description "This is an indentation test dataset." ;
+    dcterms:identifier "ARI_Al25_S2_R1" ;
+    dcterms:issued "2022-12-15T14:02:56.554747+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2020-03-24" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#2cd5e7c1-88cc-4582-84f1-9f50bdb42d48> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#8feb2975-f74f-4d0b-9f0a-bf58e2d2924a> ;
+    dcterms:title "STREAM_ARI_Al25_S2_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#f62a9513-c420-41d5-8d86-05328a4681f3> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#e6c0aecf-0519-40b0-880a-48a8ce88b1e2> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al25_S2_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#f998e7b4-3a74-495b-bede-469a86e36877> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al25_S2_Z" ;
+    dcterms:issued "2022-12-15T14:02:53.043293+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2022-12-15T14:02:53.043293+01:00" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#f998e7b4-3a74-495b-bede-469a86e36877> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#2c96c39f-0e09-400b-95b5-fada4c066061> ;
+    dcterms:title "STREAM_ARI_Al25_S2_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#3427d1ba-d403-4e29-b7da-968845c430a5> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#8c2e793f-e704-4b38-9e15-c2b8b66f5945> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al25_S3_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#3c683996-3da3-48e8-a800-f9ffe02cce7f> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al25_S3_Z" ;
+    dcterms:issued "2022-12-15T14:02:52.132298+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2022-12-15T14:02:52.132298+01:00" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#3c683996-3da3-48e8-a800-f9ffe02cce7f> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#72678507-531e-4969-bdd5-9aa8365eea97> ;
+    dcterms:title "STREAM_ARI_Al25_S3_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#3f432b95-a145-44d0-843e-ddbf61562027> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#6eb2a8ab-ffc0-47bd-a212-769bde65a9a3> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al25_S4_Z> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#17fb5d1a-1091-4800-9c6a-f9cd97ce18bb> ;
+    dcterms:description "This is a tensile test dataset." ;
+    dcterms:identifier "ARI_Al25_S4_Z" ;
+    dcterms:issued "2022-12-15T14:02:52.278972+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2022-12-15T14:02:52.278972+01:00" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#17fb5d1a-1091-4800-9c6a-f9cd97ce18bb> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#15f8ffb1-51bd-4d5b-99a5-135fa405fe60> ;
+    dcterms:title "STREAM_ARI_Al25_S4_Z_IWM_TensileTest" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#3f3546ea-1127-410d-97d0-cd7d8ad3fa8d> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#20aca733-c2bd-48cb-82d4-b853da216959> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al27_S2_R1> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#707dbc1c-c8dc-4048-9b99-6dca3a6e53bf> ;
+    dcterms:description "This is an indentation test dataset." ;
+    dcterms:identifier "ARI_Al27_S2_R1" ;
+    dcterms:issued "2022-12-15T14:02:54.409561+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2020-03-24" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#e6dcfa3e-6416-40a7-b139-d07c4d2554cc> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#1712486e-9309-4ac8-895d-dc0f72eedfde> ;
+    dcterms:title "STREAM_ARI_Al27_S2_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#d2d25c08-0379-449d-943a-83c2c993bd4f> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#c04824c4-a3fa-42e6-bb8e-ead0b5a23fbb> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al27_S3_R1> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#ae4a0ea0-85f0-4dbf-8e72-52c79fc35338> ;
+    dcterms:description "This is an indentation test dataset." ;
+    dcterms:identifier "ARI_Al27_S3_R1" ;
+    dcterms:issued "2022-12-15T14:02:55.668625+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2020-03-24" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#d62d962f-b6e8-40aa-84e0-65917e66aa29> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#6ba0c9ad-cc3f-442d-ab39-3eecbc3a324b> ;
+    dcterms:title "STREAM_ARI_Al27_S3_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#2b7acc1b-e379-4c54-8b29-2b005eaa6b89> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#9c864f66-b76e-4e7b-ab3e-d9364ae44d33> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/dataset/ARI_Al27_S4_R1> a dcat2:Dataset ;
+    dcterms:creator <https://www.simphony-osp.eu/entity#4a484178-b150-45ed-b7fd-ab69f6a6f2ae> ;
+    dcterms:description "This is an indentation test dataset." ;
+    dcterms:identifier "ARI_Al27_S4_R1" ;
+    dcterms:issued "2022-12-15T14:02:57.397357+01:00" ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+    dcterms:modified "2020-03-24" ;
+    dcterms:publisher <https://www.simphony-osp.eu/entity#ecde77b7-0778-4726-a03d-a0cafa134051> ;
+    dcterms:temporal <https://www.simphony-osp.eu/entity#974dbc35-3f05-451b-891c-c3b74e13ed8f> ;
+    dcterms:title "STREAM_ARI_Al27_S4_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:contactPoint <https://www.simphony-osp.eu/entity#6a95b057-7053-47da-88dc-ae4c30670e3a> ;
+    dcat2:distribution <https://www.simphony-osp.eu/entity#bc143a7b-dd31-4956-bb8b-04fbcdbf1f2c> ;
+    dcat2:landingPage <http://dsms.stream-dataspace.net/> .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al16_S3_R1_IWM_BrinellIndentation.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al17_S2_R1b_IWM_BrinellIndentation.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al17_S2_R2b_IWM_BrinellIndentation.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al17_S2_R4b_IWM_BrinellIndentation.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al17_S2_R5b_IWM_BrinellIndentation.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al17_S2_R6b_IWM_BrinellIndentation.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al20_S2_R1_IWM_BrinellIndentation.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al20_S3_R1_IWM_BrinellIndentation.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al20_S4_R1_IWM_BrinellIndentation.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al23_S3_R1_IWM_BrinellIndentation.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al23_S4_R1_IWM_BrinellIndentation.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al25_S2_R1_IWM_BrinellIndentation.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al27_S2_R1_IWM_BrinellIndentation.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al27_S3_R1_IWM_BrinellIndentation.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al27_S4_R1_IWM_BrinellIndentation.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al15_S2_Z.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al15_S4_Z.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al16_S1_Z.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al16_S2_Z.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al16_S3_Z.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al16_S4_Z.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al17_S4_Z.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al20_S2_Z.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al20_S3_Z.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al20_S4_Z.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al23_S2_Z.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al23_S3_Z.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al23_S4_Z.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al25_S2_Z.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al25_S3_Z.xlsx> a owl:Thing .
+
+<https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al25_S4_Z.xlsx> a owl:Thing .
+
+<https://www.simphony-osp.eu/entity#01d1ea19-95d2-4662-b8e3-921c119b61f1> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2020-03-24"^^rdfs:Literal ;
+    dcat2:startDate "2020-03-24"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#024e0158-4317-449c-95ba-a19345b4746f> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#06bad9fb-7b42-4b30-a71f-55c52fd059e6> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#0836db74-2f25-4924-b7ce-b11761745844> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#0ba349a2-255f-4d35-bf28-d12655d05df6> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#12643973-efaa-4ac2-8d82-716d775cbd89> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#13038440-ad46-407f-83cb-3c2d04c7cc7e> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#14a65b29-243c-4654-9323-d59611745b97> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al20_S2_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al20_S2_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#15f8ffb1-51bd-4d5b-99a5-135fa405fe60> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2022-12-15"^^rdfs:Literal ;
+    dcat2:startDate "2022-12-15"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#166fe6c3-07ff-4bb5-8614-2ee6180cb31e> a dcat2:Distribution ;
+    dcterms:title "STREAM_ARI_Al20_S4_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al20_S4_R1_IWM_BrinellIndentation.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#1712486e-9309-4ac8-895d-dc0f72eedfde> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2020-03-24"^^rdfs:Literal ;
+    dcat2:startDate "2020-03-24"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#176b4d1b-8b23-4999-a209-096d55e4f487> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2020-03-24"^^rdfs:Literal ;
+    dcat2:startDate "2020-03-24"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#17eea974-421c-4d82-8356-2313fe43135a> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#192e5b10-9084-445c-9b09-d1971bfaf2fd> a dcat2:Distribution ;
+    dcterms:title "STREAM_ARI_Al17_S2_R4b_IWM_BrinellIndentation.xlsx" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al17_S2_R4b_IWM_BrinellIndentation.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#1b889ef6-7a96-489b-918b-2cf8bbc82b72> a foaf:Person ;
+    foaf:nick "zah" .
+
+<https://www.simphony-osp.eu/entity#1d660334-abfa-4b9d-8d71-be97c651fe85> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2019-11-29"^^rdfs:Literal ;
+    dcat2:startDate "2019-11-29"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#1f13b386-e901-47ce-88f2-b16e37dc0c98> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2022-12-15"^^rdfs:Literal ;
+    dcat2:startDate "2022-12-15"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#20aca733-c2bd-48cb-82d4-b853da216959> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al25_S4_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al25_S4_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#28d78736-a263-4b32-a418-4fbd5250241f> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2022-12-15"^^rdfs:Literal ;
+    dcat2:startDate "2022-12-15"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#29bae3a4-897b-49a1-a0e8-c221444eb657> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#2b7acc1b-e379-4c54-8b29-2b005eaa6b89> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#2c96c39f-0e09-400b-95b5-fada4c066061> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2022-12-15"^^rdfs:Literal ;
+    dcat2:startDate "2022-12-15"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#2cd5e7c1-88cc-4582-84f1-9f50bdb42d48> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#3427d1ba-d403-4e29-b7da-968845c430a5> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#377087ed-7ace-41f4-a076-6fde9d261b21> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al16_S1_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al16_S1_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#38203e32-07e4-4cf2-b4cb-600051bc7254> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#39e54d00-daaa-432a-85b5-1edee9a0e10d> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2019-10-31"^^rdfs:Literal ;
+    dcat2:startDate "2019-10-31"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#3f3546ea-1127-410d-97d0-cd7d8ad3fa8d> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#3f432b95-a145-44d0-843e-ddbf61562027> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#3f6e4cb8-22df-4904-901e-7cd8c2798705> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#40250d98-6ff8-43eb-ba7b-f27a7942a190> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2019-11-29"^^rdfs:Literal ;
+    dcat2:startDate "2019-11-29"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#40317ca8-d2f1-42bf-a82a-d75499486a61> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#411abd1f-f0b3-464a-b64b-eabc62601ab2> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2020-03-24"^^rdfs:Literal ;
+    dcat2:startDate "2020-03-24"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#46bdc485-ad7d-45de-beb1-063d3e31f9ab> a dcat2:Distribution ;
+    dcterms:title "STREAM_ARI_Al17_S2_R5b_IWM_BrinellIndentation.xlsx" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al17_S2_R5b_IWM_BrinellIndentation.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#496050b1-d12e-4f64-a399-9c5572fe42cf> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2020-03-24"^^rdfs:Literal ;
+    dcat2:startDate "2020-03-24"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#49ca2c55-0372-4016-b567-a81817549a9f> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#4a484178-b150-45ed-b7fd-ab69f6a6f2ae> a foaf:Person ;
+    foaf:nick "zah" .
+
+<https://www.simphony-osp.eu/entity#4a6f3b67-d3c0-499c-a720-757f6af4b231> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2022-12-15"^^rdfs:Literal ;
+    dcat2:startDate "2022-12-15"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#4ad070e8-1152-4c07-98a0-674c4c88e20c> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al17_S4_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al17_S4_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#4c1225b0-8814-4c7e-b98c-9abff02d0799> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#4fe45c13-c28b-43aa-9a67-c5d72c4fb89e> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2022-12-15"^^rdfs:Literal ;
+    dcat2:startDate "2022-12-15"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#51a9093f-836b-4bd7-8b1a-15ed3af5dfea> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#52d873cd-a297-4c0c-bbaa-29619ec30de7> a foaf:Person ;
+    foaf:nick "zah" .
+
+<https://www.simphony-osp.eu/entity#54517dda-4760-4f91-a212-c56e8a9fbd34> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2019-11-29"^^rdfs:Literal ;
+    dcat2:startDate "2019-11-29"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#591b54ae-dffc-4278-ac15-04a790edd5f8> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al16_S2_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al16_S2_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#5baa8170-bc33-4901-86b1-296fec1d7cd0> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#5fd7dded-6a66-455c-a17b-bcc75e41ff05> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#60d9ca25-196e-4555-b0eb-ceb7a542c1d0> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2022-12-15"^^rdfs:Literal ;
+    dcat2:startDate "2022-12-15"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#6778cfc6-c3f1-41b9-a90b-2b5f4d18d9fb> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2020-03-24"^^rdfs:Literal ;
+    dcat2:startDate "2020-03-24"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#6a95b057-7053-47da-88dc-ae4c30670e3a> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#6ba0c9ad-cc3f-442d-ab39-3eecbc3a324b> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2020-03-24"^^rdfs:Literal ;
+    dcat2:startDate "2020-03-24"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#6eb2a8ab-ffc0-47bd-a212-769bde65a9a3> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al25_S3_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al25_S3_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#707dbc1c-c8dc-4048-9b99-6dca3a6e53bf> a foaf:Person ;
+    foaf:nick "zah" .
+
+<https://www.simphony-osp.eu/entity#71dbc7b7-4e0d-476d-ad09-352e78dddc67> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#71dda21e-8ad1-4e26-8cdd-445f7f6cc891> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#72678507-531e-4969-bdd5-9aa8365eea97> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2022-12-15"^^rdfs:Literal ;
+    dcat2:startDate "2022-12-15"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#727c75dc-eaf3-4f03-9962-a136dc9d0fbe> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#73c9bb2b-9ed8-43d3-af25-c2c329a321d0> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al23_S3_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al23_S3_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#748d34a6-90be-467d-bb28-50a78ad08155> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#752d3ba8-58ae-4f54-b903-d89468bb003f> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#78cb849c-e72d-4d4b-97ee-2365d12cb8d6> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#7ba391a9-298d-45fb-ab70-15c16b5c6c40> a dcat2:Distribution ;
+    dcterms:title "STREAM_ARI_Al16_S3_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al16_S3_R1_IWM_BrinellIndentation.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#7bfaa54e-899a-4e6e-9152-e35187be9462> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#7d212156-fdf0-4b31-bb34-e0e19999f8cb> a dcat2:Distribution ;
+    dcterms:title "STREAM_ARI_Al20_S3_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al20_S3_R1_IWM_BrinellIndentation.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#7fd43f17-5e94-472c-97d8-603cf2385be0> a foaf:Person ;
+    foaf:nick "cmei" .
+
+<https://www.simphony-osp.eu/entity#81481e36-4e50-45d7-95b7-735a8f98c6b8> a foaf:Person ;
+    foaf:nick "zah" .
+
+<https://www.simphony-osp.eu/entity#817b3a3c-3ebf-4d46-a3ef-b4e4762c8b87> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al16_S3_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al16_S3_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#847fd400-babc-4b3f-a9bc-d12c5940e690> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al20_S4_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al20_S4_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#8b570fcf-50c7-4e73-9cc7-a1abcfeb0001> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2019-11-29"^^rdfs:Literal ;
+    dcat2:startDate "2019-11-29"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#8c2e793f-e704-4b38-9e15-c2b8b66f5945> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al25_S2_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al25_S2_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#8feb2975-f74f-4d0b-9f0a-bf58e2d2924a> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2020-03-24"^^rdfs:Literal ;
+    dcat2:startDate "2020-03-24"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#90ffb01c-2d79-44f8-94b5-12d916b8b8ae> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2020-03-24"^^rdfs:Literal ;
+    dcat2:startDate "2020-03-24"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#93d7036c-1075-422b-bea9-d3841e3f063f> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2022-12-15"^^rdfs:Literal ;
+    dcat2:startDate "2022-12-15"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#94af4efb-2f5c-4135-81ee-905ebc81517f> a dcat2:Distribution ;
+    dcterms:title "STREAM_ARI_Al23_S4_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al23_S4_R1_IWM_BrinellIndentation.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#97021918-dda0-4496-9c8f-dac654617421> a dcat2:Distribution ;
+    dcterms:title "STREAM_ARI_Al17_S2_R2b_IWM_BrinellIndentation.xlsx" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al17_S2_R2b_IWM_BrinellIndentation.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#974dbc35-3f05-451b-891c-c3b74e13ed8f> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2020-03-24"^^rdfs:Literal ;
+    dcat2:startDate "2020-03-24"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#9b6c973c-8e1d-48bf-93a9-c4e9828d83f4> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#9c3680d0-53e4-46ce-8504-37f76d0619ae> a foaf:Person ;
+    foaf:nick "cmei" .
+
+<https://www.simphony-osp.eu/entity#9c6d3b8d-4f2d-4fe3-b426-30a64739b90a> a dcat2:Distribution ;
+    dcterms:title "STREAM_ARI_Al20_S2_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al20_S2_R1_IWM_BrinellIndentation.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#9c864f66-b76e-4e7b-ab3e-d9364ae44d33> a dcat2:Distribution ;
+    dcterms:title "STREAM_ARI_Al27_S3_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al27_S3_R1_IWM_BrinellIndentation.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#a3eae8d9-6aec-4b9c-b23d-bc48bd4d6d08> a dcat2:Distribution ;
+    dcterms:title "STREAM_ARI_Al17_S2_R1b_IWM_BrinellIndentation.xlsx" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al17_S2_R1b_IWM_BrinellIndentation.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#a467ba84-d151-4625-a8b3-b8d40f169a80> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al20_S3_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al20_S3_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#a4e8edf5-2fc5-438d-b35b-22347b611577> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2019-10-31"^^rdfs:Literal ;
+    dcat2:startDate "2019-10-31"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#aa5b5d3c-15c0-4dcb-8bf0-631470af2aad> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2019-11-29"^^rdfs:Literal ;
+    dcat2:startDate "2019-11-29"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#aad6839d-da0e-4925-a58d-2aa96cafcb0e> a foaf:Person ;
+    foaf:nick "cmei" .
+
+<https://www.simphony-osp.eu/entity#ab58c841-cb32-4667-82d2-964f8b9412aa> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al15_S4_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al15_S4_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#ac71b62b-88f4-4046-9b05-b2296343282f> a foaf:Person ;
+    foaf:nick "zah" .
+
+<https://www.simphony-osp.eu/entity#ae4a0ea0-85f0-4dbf-8e72-52c79fc35338> a foaf:Person ;
+    foaf:nick "zah" .
+
+<https://www.simphony-osp.eu/entity#af4ba7b1-ed5d-46b1-a032-c79e5c3c9c1e> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#afd52d9d-4054-44e3-8adb-542e0b6e4b59> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al15_S2_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al15_S2_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#b0e661c7-3e1b-4ad3-a388-8c95ac4047d7> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#b3fa990f-fdf8-4ced-b6aa-f5ef0e1d934b> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#b42e70e7-be5b-4851-994e-c7e406f0c11a> a foaf:Person ;
+    foaf:nick "zah" .
+
+<https://www.simphony-osp.eu/entity#b4c81dc7-d9f5-481d-b24d-eb17a1eec425> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al16_S4_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al16_S4_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#b5dabbad-03d9-47c6-b47b-1e7973364f09> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#b7c3fcc9-4190-4986-9036-99d964b54e7c> a foaf:Person ;
+    foaf:nick "cmei" .
+
+<https://www.simphony-osp.eu/entity#b8c28ede-a5fb-442e-83b3-53c1abbc49dd> a dcat2:Distribution ;
+    dcterms:title "STREAM_ARI_Al17_S2_R6b_IWM_BrinellIndentation.xlsx" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al17_S2_R6b_IWM_BrinellIndentation.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#bc143a7b-dd31-4956-bb8b-04fbcdbf1f2c> a dcat2:Distribution ;
+    dcterms:title "STREAM_ARI_Al27_S4_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al27_S4_R1_IWM_BrinellIndentation.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#be17ba6b-172f-4655-a113-c73c82ef9b54> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2019-10-31"^^rdfs:Literal ;
+    dcat2:startDate "2019-10-31"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#bf6f564e-5f32-4502-af52-847027cf8a7b> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#c03354f7-e66e-4ed0-8e0b-0440c7347cb5> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al23_S4_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al23_S4_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#c04824c4-a3fa-42e6-bb8e-ead0b5a23fbb> a dcat2:Distribution ;
+    dcterms:title "STREAM_ARI_Al27_S2_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al27_S2_R1_IWM_BrinellIndentation.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#c5a7f4e8-0452-41da-8be6-81824f79faf9> a foaf:Person ;
+    foaf:nick "zah" .
+
+<https://www.simphony-osp.eu/entity#cba41d78-ddb5-4598-a648-685e0c457021> a foaf:Person ;
+    foaf:nick "cmei" .
+
+<https://www.simphony-osp.eu/entity#d2c6a490-d867-4967-b530-63c47c9ffad9> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#d2d25c08-0379-449d-943a-83c2c993bd4f> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#d4938018-9427-4df9-ab1f-d01a60ed7d77> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2022-12-15"^^rdfs:Literal ;
+    dcat2:startDate "2022-12-15"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#d4e5e6a2-84d1-405c-9a08-ef271adeab59> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2022-12-15"^^rdfs:Literal ;
+    dcat2:startDate "2022-12-15"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#d62d962f-b6e8-40aa-84e0-65917e66aa29> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#dcafd1df-2cfd-4951-93ce-c98527b5878d> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2022-12-15"^^rdfs:Literal ;
+    dcat2:startDate "2022-12-15"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#dd99d69a-efb0-407d-b668-8033e351cd60> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#dddc1e2f-5765-4148-8b02-66b52c4b8075> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#df9c5985-263d-4fe7-b2e2-f703257eb405> a dcat2:Distribution ;
+    dcterms:title "STREAM_ARI_Al23_S3_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al23_S3_R1_IWM_BrinellIndentation.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#e0e19766-ee76-4f5e-94af-920e8298b2dc> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#e6c0aecf-0519-40b0-880a-48a8ce88b1e2> a dcat2:Distribution ;
+    dcterms:title "STREAM_ARI_Al25_S2_R1_IWM_BrinellIndentation.xlsx" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_ARI_Al25_S2_R1_IWM_BrinellIndentation.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#e6dcfa3e-6416-40a7-b139-d07c4d2554cc> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#ecde77b7-0778-4726-a03d-a0cafa134051> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#ece70d3f-55b7-49f1-a25d-6add3ecb8ba0> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#f0e1ff40-cebd-4ab3-a516-6dbb010a99e0> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#f4e1b245-66e9-4517-8e70-1ede29f9fbb2> a dcterms:PeriodOfTime ;
+    dcat2:endDate "2022-12-15"^^rdfs:Literal ;
+    dcat2:startDate "2022-12-15"^^rdfs:Literal .
+
+<https://www.simphony-osp.eu/entity#f5c3b9fe-ccc3-4387-8fc5-f36200844c3f> a dcat2:Distribution ;
+    dcterms:title "STREAM_IWM_TT_ARI_Al23_S2_Z" ;
+    dcat2:downloadURL <https://dsms.stream-dataspace.net/iwm-data-files/STREAM_IWM_TT_ARI_Al23_S2_Z.xlsx> ;
+    dcat2:mediaType <https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> .
+
+<https://www.simphony-osp.eu/entity#f62a9513-c420-41d5-8d86-05328a4681f3> a vcard:Contact ;
+    vcard:family-name "Weber"^^xsd:string ;
+    vcard:given-name "Matthias"^^xsd:string ;
+    vcard:hasEmail <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    vcard:hasOrganizationName <https://www.iwm.fraunhofer.de> ;
+    vcard:nickname "wbr"^^xsd:string .
+
+<https://www.simphony-osp.eu/entity#fa103dee-1f1e-43ce-a6de-ebaaf13b0238> a foaf:Person ;
+    foaf:nick "zah" .
+
+<https://www.simphony-osp.eu/entity#0c983331-425c-4195-b2fb-3d8640cc3b01> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#17fb5d1a-1091-4800-9c6a-f9cd97ce18bb> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#27fa781e-f4ab-4178-9d2d-2911a2e45890> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#3c683996-3da3-48e8-a800-f9ffe02cce7f> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#5cc28d39-46e9-4c26-bd32-16163428280f> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#69f3f625-7e7e-440a-bbb4-69f68a5c8e80> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#8b92417e-438f-4a79-b94b-e0fa8ee31170> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#8c4debf2-ba59-4eb4-b5d8-f26e2927f88f> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#9a63e4c3-b893-4b85-90a6-b8c93979b7a9> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#a3008a4c-1532-4952-b4f3-c10a1b218591> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#c2e9217a-71d2-44e1-bc1f-6d0b6f574ac5> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#cb63a70c-9389-42ab-9c18-300fa6bed84a> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#e04f6a4f-2f2d-40ab-b8bc-86d3e526573d> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#edecb655-6043-4fc1-a8fc-878332ef0b44> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#f998e7b4-3a74-495b-bede-469a86e36877> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<https://www.simphony-osp.eu/entity#ffd5e2d2-fd44-48dc-9612-0fa11cc54d4d> a foaf:Person ;
+    foaf:familyName "Weber"^^rdfs:Literal ;
+    foaf:givenName "Matthias" ;
+    foaf:mbox <mailto:matthias.weber@iwm.fraunhofer.de> ;
+    foaf:nick "wbr" .
+
+<http://dsms.stream-dataspace.net/> a foaf:Document .
+
+<http://id.loc.gov/vocabulary/iso639-1/en> a dcterms:LinguisticSystem .
+
+<https://creativecommons.org/licenses/by-nc-nd/4.0/> a dcterms:RightsStatement .
+
+<https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet> a dcterms:MediaType .
+
+<https://www.iwm.fraunhofer.de> a vcard:Organization .
+
+<mailto:matthias.weber@iwm.fraunhofer.de> a foaf:Agent .
+
