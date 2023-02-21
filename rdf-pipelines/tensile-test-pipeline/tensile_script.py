@@ -4,7 +4,7 @@ import os
 from data2rdf.cli.abox_conversion import run_abox_pipeline_for_folder
 from data2rdf.annotation_pipeline import Annotation_Pipeline
 from openpyxl import Workbook, load_workbook
-from rdflib import URIRef
+from rdflib import Namespace, URIRef
 
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
@@ -150,11 +150,16 @@ def apply_pipeline():
         pipeline.run_pipeline()
         graph = pipeline.export_graph()
     
+        # a local fix for the problem that some namespaces doesn't have a proper prefix
+        graph.bind("skos", "http://www.w3.org/2004/02/skos/core#")
+        graph.bind("emmo", "http://emmo.info/emmo#")
+        graph.bind("matvoc", "http://stream-ontology.com/matvoc-core/")
+
         # post-process: add connection to metadata annotations
         # NOTE hard-coded knowledge: naming pattern
         dataset_id = title.replace("STREAM_", "").replace("_IWM_TensileTest", "")
         graph.add((
-            URIRef(pipeline.file_uri),
+            Namespace(pipeline.file_uri).TensileTest,
             URIRef("http://stream-ontology.com/matvoc-core/hasMetadata"),
             URIRef(f"{DATASET_API}/{dataset_id}")
         ))
