@@ -1,49 +1,47 @@
 @prefix chameo: <http://emmo.info/emmo/domain/chameo/chameo#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix method: <https://stream-projekt.net/1636e7dce6414fdf3cf005189e2db0ed4d64f264200b9dcd5e5cd8d11cbf8da4#> .
+@prefix emmo: <http://emmo.info/emmo#> .
+@prefix matvoc: <http://stream-ontology.com/matvoc-core/> .
+@prefix method: <https://stream-projekt.net/11accb356d5f4feacd67ad2dbef3a7215b20f1bb8e8ca8adde2c562ec1e3d726#> .
 @prefix mt: <http://emmo.info/emmo/domain/mechanical-testing#> .
-@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
-@prefix ns11: <http://emmo.info/emmo#> .
-@prefix ns2: <http://stream-ontology.com/matvoc-core/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix stream: <http://emmo.info/application/hardnesstest-ontology#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 stream:EMMO_b2ee8543_b055_4fac_a422_905f993d223e a owl:ObjectProperty ;
-    ns1:prefLabel "hasMeasurementResult"@en .
+    skos:prefLabel "hasMeasurementResult"@en .
 
-ns11:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f a owl:ObjectProperty ;
-    ns1:prefLabel "hasPart"@en .
+emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f a owl:ObjectProperty ;
+    skos:prefLabel "hasPart"@en .
 
-ns11:EMMO_36e69413_8c59_4799_946c_10b05d266e22 a owl:ObjectProperty ;
-    ns1:prefLabel "hasProcessInput"@en .
+emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 a owl:ObjectProperty ;
+    skos:prefLabel "hasProcessInput"@en .
 
-ns11:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 a owl:ObjectProperty ;
-    ns1:prefLabel "hasSign"@en .
+emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 a owl:ObjectProperty ;
+    skos:prefLabel "hasSign"@en .
 
-ns11:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a a owl:ObjectProperty ;
-    ns1:prefLabel "hasParticipant"@en .
+emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a a owl:ObjectProperty ;
+    skos:prefLabel "hasParticipant"@en .
 
-ns11:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe a owl:ObjectProperty ;
-    ns1:prefLabel "hasSpatialDirectPart"@en .
+emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe a owl:ObjectProperty ;
+    skos:prefLabel "hasSpatialDirectPart"@en .
 
-ns11:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 a owl:ObjectProperty ;
-    ns1:prefLabel "hasProcessOutput"@en .
+emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 a owl:ObjectProperty ;
+    skos:prefLabel "hasProcessOutput"@en .
 
-ns11:EMMO_e1097637_70d2_4895_973f_2396f04fa204 a owl:ObjectProperty ;
-    ns1:prefLabel "hasProperty"@en .
+emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 a owl:ObjectProperty ;
+    skos:prefLabel "hasProperty"@en .
 
 chameo:hasMeasurementTime a owl:ObjectProperty ;
-    ns1:prefLabel "hasMeasurementTime" .
+    skos:prefLabel "hasMeasurementTime" .
 
 rdfs: a owl:Ontology ;
     dc:creator "IWM MI-Team" ;
     dc:description "Ontology code created by Chowlk" ;
     dc:title "EMMO ABox minimal" ;
     owl:versionInfo "0.0.1" .
-
-method: ns2:hasMetadata <https://stream.materials-data.space/datasets/ARI_Al25_S3_R1> .
 
 method:HardnessTestMeasurement a stream:EMMO_f9824da8_6001_44f2_981f_2608234d2a67,
         owl:NamedIndividual ;
@@ -52,77 +50,78 @@ method:HardnessTestMeasurement a stream:EMMO_f9824da8_6001_44f2_981f_2608234d2a6
         method:BrinellHardness-1,
         method:BrinellHardness-2,
         method:BrinellHardness-3 ;
-    ns11:EMMO_36e69413_8c59_4799_946c_10b05d266e22 method:HardnessTestSpecimen ;
-    ns11:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 method:MeasurementID ;
-    ns11:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a method:HardnessTestingMachine ;
-    ns11:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 method:HardnessDataSet ;
-    ns11:EMMO_e1097637_70d2_4895_973f_2396f04fa204 method:LoadingTime,
+    emmo:EMMO_36e69413_8c59_4799_946c_10b05d266e22 method:HardnessTestSpecimen ;
+    emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 method:MeasurementID ;
+    emmo:EMMO_ae2d1a96_bfa1_409a_a7d2_03d69e8a125a method:HardnessTestingMachine ;
+    emmo:EMMO_c4bace1d_4db0_4cd3_87e9_18122bae2840 method:HardnessDataSet ;
+    emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 method:LoadingTime,
         method:TestForce ;
-    chameo:hasMeasurementTime method:MeasurementTime .
+    chameo:hasMeasurementTime method:MeasurementTime ;
+    matvoc:hasMetadata <https://stream.materials-data.space/datasets/ARI_Al25_S3_R1> .
 
 stream:EMMO_06d09ad3_3834_4c0e_8249_0a6869ebc703 a owl:Class ;
     rdfs:subClassOf mt:EMMO_535baaec_5360_48e8_ada4_72c6e6848957 ;
-    ns1:prefLabel "HardnessTestSpecimen"@de .
+    skos:prefLabel "HardnessTestSpecimen"@de .
 
 stream:EMMO_152492fa_7392_4818_8ed2_4fdac19de0e1 a owl:Class ;
-    ns1:prefLabel "OpticalSystemName"@en .
+    skos:prefLabel "OpticalSystemName"@en .
 
 stream:EMMO_1a54aed1_292f_4f41_8ae0_942a290cab65 a owl:Class ;
-    ns1:prefLabel "MachineName"@en .
+    skos:prefLabel "MachineName"@en .
 
 stream:EMMO_267f071e_03b4_4d89_a76a_1f88f8647051 a owl:Class ;
-    ns1:prefLabel "LoadingTime"@en .
+    skos:prefLabel "LoadingTime"@en .
 
 stream:EMMO_27ea1994_5afe_4588_b980_f39ecf1e3392 a owl:Class ;
-    ns1:prefLabel "IndenterDiameter"@en .
+    skos:prefLabel "IndenterDiameter"@en .
 
 stream:EMMO_7467d72a_bf5e_47b8_b66e_52f28ec8180e a owl:Class ;
-    ns1:prefLabel "TestForce"@en .
+    skos:prefLabel "TestForce"@en .
 
 stream:EMMO_a84ff0d1_39c9_4aab_b4a7_8fd19b186ce5 a owl:Class ;
-    ns1:prefLabel "AverageBrinellHardness"@en .
+    skos:prefLabel "AverageBrinellHardness"@en .
 
 stream:EMMO_a8cc3da7_6b06_4e2e_8b61_6d35ec480555 a owl:Class ;
-    ns1:prefLabel "IndenterName"@en .
+    skos:prefLabel "IndenterName"@en .
 
 stream:EMMO_ac7c33de_f819_4b53_86c8_dc0d18caa602 a owl:Class ;
-    ns1:prefLabel "MeasurementID"@de .
+    skos:prefLabel "MeasurementID"@de .
 
 stream:EMMO_c573f186_c1df_4844_a4c6_9836d103f28a a owl:Class ;
-    ns1:prefLabel "HardnessTestingMachine"@en .
+    skos:prefLabel "HardnessTestingMachine"@en .
 
 stream:EMMO_c87a0a71_e220_42b6_afd6_8eab04b83a86 a owl:Class ;
-    ns1:prefLabel "Indenter"@en .
+    skos:prefLabel "Indenter"@en .
 
 stream:EMMO_dad0cdb7_8dc8_464f_b839_454bb82b739e a owl:Class ;
-    ns1:prefLabel "OpticalSystem"@en .
+    skos:prefLabel "OpticalSystem"@en .
 
 stream:EMMO_efffce94_70e4_4cb1_8d55_c0b23b2a3e27 a owl:Class ;
-    rdfs:subClassOf ns11:EMMO_194e367c_9783_4bf5_96d0_9ad597d48d9a ;
-    ns1:prefLabel "HardnessDataSet"@de .
+    rdfs:subClassOf emmo:EMMO_194e367c_9783_4bf5_96d0_9ad597d48d9a ;
+    skos:prefLabel "HardnessDataSet"@de .
 
 stream:EMMO_f9824da8_6001_44f2_981f_2608234d2a67 a owl:Class ;
-    ns1:prefLabel "BrinellHardnessMeasurement"@de .
+    skos:prefLabel "BrinellHardnessMeasurement"@de .
 
-ns11:EMMO_194e367c_9783_4bf5_96d0_9ad597d48d9a a owl:Class ;
-    ns1:prefLabel "DataSet"@en .
+emmo:EMMO_194e367c_9783_4bf5_96d0_9ad597d48d9a a owl:Class ;
+    skos:prefLabel "DataSet"@en .
 
 chameo:MeasurementTime a owl:Class ;
-    ns1:prefLabel "Measurement Time"@en .
+    skos:prefLabel "Measurement Time"@en .
 
 mt:EMMO_4d5b1eee_cda4_4bc7_8a0e_612fcf7f0c82 a owl:Class ;
-    ns1:prefLabel "SpecimenID"@en .
+    skos:prefLabel "SpecimenID"@en .
 
 mt:EMMO_535baaec_5360_48e8_ada4_72c6e6848957 a owl:Class ;
-    ns1:prefLabel "Specimen"@en .
+    skos:prefLabel "Specimen"@en .
 
 mt:EMMO_71200c24_44fe_4533_96be_55ecb299681c a owl:Class ;
-    ns1:prefLabel "ShortName"@en .
+    skos:prefLabel "ShortName"@en .
 
 method:HardnessDataSet a stream:EMMO_efffce94_70e4_4cb1_8d55_c0b23b2a3e27,
         owl:NamedIndividual ;
     rdfs:label "HardnessDataSet" ;
-    ns11:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe method:AverageBrinellHardness,
+    emmo:EMMO_b2282816_b7a3_44c6_b2cb_3feff1ceb7fe method:AverageBrinellHardness,
         method:BrinellHardness-1,
         method:BrinellHardness-2,
         method:BrinellHardness-3 .
@@ -130,30 +129,30 @@ method:HardnessDataSet a stream:EMMO_efffce94_70e4_4cb1_8d55_c0b23b2a3e27,
 method:HardnessTestSpecimen a stream:EMMO_06d09ad3_3834_4c0e_8249_0a6869ebc703,
         owl:NamedIndividual ;
     rdfs:label "HardnessTestSpecimen" ;
-    ns11:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 method:SpecimenID ;
-    ns11:EMMO_e1097637_70d2_4895_973f_2396f04fa204 method:ShortName .
+    emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 method:SpecimenID ;
+    emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 method:ShortName .
 
 method:HardnessTestingMachine a stream:EMMO_c573f186_c1df_4844_a4c6_9836d103f28a,
         owl:NamedIndividual ;
     rdfs:label "HardnessTestingMachine",
         "Name (Brinell testing equipment)" ;
-    ns11:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f method:Indenter,
+    emmo:EMMO_17e27c22_37e1_468c_9dd7_95e137f73e7f method:Indenter,
         method:OpticalSystem ;
-    ns11:EMMO_23b579e1_8088_45b5_9975_064014026c42 "Wolpert Dia Testor 2RC"^^xsd:string ;
-    ns11:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 method:MachineName .
+    emmo:EMMO_23b579e1_8088_45b5_9975_064014026c42 "Wolpert Dia Testor 2RC"^^xsd:string ;
+    emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 method:MachineName .
 
 method:Indenter a stream:EMMO_c87a0a71_e220_42b6_afd6_8eab04b83a86,
         owl:NamedIndividual ;
     rdfs:label "Indenter" ;
-    ns11:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 method:IndenterName ;
-    ns11:EMMO_e1097637_70d2_4895_973f_2396f04fa204 method:IndenterDiameter .
+    emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 method:IndenterName ;
+    emmo:EMMO_e1097637_70d2_4895_973f_2396f04fa204 method:IndenterDiameter .
 
 method:IndenterDiameter a stream:EMMO_27ea1994_5afe_4588_b980_f39ecf1e3392,
         owl:NamedIndividual ;
     rdfs:label "IndenterDiameter",
         "Value (diameter Brinell indenter)" ;
-    ns11:EMMO_67fc0a36_8dcb_4ffa_9a43_31074efa3296 method:unit-5 ;
-    ns11:EMMO_8ef3cd6d_ae58_4a8d_9fc0_ad8f49015cd0 method:numeric-5 .
+    emmo:EMMO_67fc0a36_8dcb_4ffa_9a43_31074efa3296 method:unit-5 ;
+    emmo:EMMO_8ef3cd6d_ae58_4a8d_9fc0_ad8f49015cd0 method:numeric-5 .
 
 method:IndenterName a stream:EMMO_a8cc3da7_6b06_4e2e_8b61_6d35ec480555,
         owl:NamedIndividual ;
@@ -177,12 +176,12 @@ method:MeasurementTime a chameo:MeasurementTime,
         owl:NamedIndividual ;
     rdfs:label "Date time start of process (yyyy-mm-dd hh:mm:ss)",
         "MeasurementTime" ;
-    ns11:EMMO_23b579e1_8088_45b5_9975_064014026c42 "2020-03-24"^^xsd:string .
+    emmo:EMMO_23b579e1_8088_45b5_9975_064014026c42 "2020-03-24"^^xsd:string .
 
 method:OpticalSystem a stream:EMMO_dad0cdb7_8dc8_464f_b839_454bb82b739e,
         owl:NamedIndividual ;
     rdfs:label "OpticalSystem" ;
-    ns11:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 method:OpticalSystemName .
+    emmo:EMMO_60577dea_9019_4537_ac41_80b0fb563d41 method:OpticalSystemName .
 
 method:OpticalSystemName a stream:EMMO_152492fa_7392_4818_8ed2_4fdac19de0e1,
         owl:NamedIndividual ;
@@ -197,51 +196,51 @@ method:SpecimenID a mt:EMMO_4d5b1eee_cda4_4bc7_8a0e_612fcf7f0c82,
         owl:NamedIndividual ;
     rdfs:label "Object ID (metallographic specimen)",
         "SpecimenID" ;
-    ns11:EMMO_23b579e1_8088_45b5_9975_064014026c42 "ARI_Al25_S3_R1"^^xsd:string .
+    emmo:EMMO_23b579e1_8088_45b5_9975_064014026c42 "ARI_Al25_S3_R1"^^xsd:string .
 
 method:TestForce a stream:EMMO_7467d72a_bf5e_47b8_b66e_52f28ec8180e,
         owl:NamedIndividual ;
     rdfs:label "TestForce",
         "Value (indentation force Brinell)" ;
-    ns11:EMMO_67fc0a36_8dcb_4ffa_9a43_31074efa3296 method:unit-6 ;
-    ns11:EMMO_8ef3cd6d_ae58_4a8d_9fc0_ad8f49015cd0 method:numeric-6 .
+    emmo:EMMO_67fc0a36_8dcb_4ffa_9a43_31074efa3296 method:unit-6 ;
+    emmo:EMMO_8ef3cd6d_ae58_4a8d_9fc0_ad8f49015cd0 method:numeric-6 .
 
-method:numeric-5 a ns11:EMMO_4ce76d7f_03f8_45b6_9003_90052a79bfaa ;
-    ns11:EMMO_faf79f53_749d_40b2_807c_d34244c192f4 2.5e+00 .
+method:numeric-5 a emmo:EMMO_4ce76d7f_03f8_45b6_9003_90052a79bfaa ;
+    emmo:EMMO_faf79f53_749d_40b2_807c_d34244c192f4 2.5e+00 .
 
-method:numeric-6 a ns11:EMMO_4ce76d7f_03f8_45b6_9003_90052a79bfaa ;
-    ns11:EMMO_faf79f53_749d_40b2_807c_d34244c192f4 6.25e+01 .
+method:numeric-6 a emmo:EMMO_4ce76d7f_03f8_45b6_9003_90052a79bfaa ;
+    emmo:EMMO_faf79f53_749d_40b2_807c_d34244c192f4 6.25e+01 .
 
-method:unit-5 a ns11:EMMO_18ce5200_00f5_45bb_8c6f_6fb128cd41ae ;
+method:unit-5 a emmo:EMMO_18ce5200_00f5_45bb_8c6f_6fb128cd41ae ;
     rdfs:label "physical-dimension-mm" .
 
-method:unit-6 a ns11:EMMO_18ce5200_00f5_45bb_8c6f_6fb128cd41ae ;
+method:unit-6 a emmo:EMMO_18ce5200_00f5_45bb_8c6f_6fb128cd41ae ;
     rdfs:label "physical-dimension-kp" .
 
 method:AverageBrinellHardness a stream:EMMO_a84ff0d1_39c9_4aab_b4a7_8fd19b186ce5,
         owl:NamedIndividual ;
     rdfs:label "AverageBrinellHardness",
         "Value (avg. hardness Brinell)" ;
-    ns11:EMMO_23b579e1_8088_45b5_9975_064014026c42 "69.2"^^xsd:string .
+    emmo:EMMO_23b579e1_8088_45b5_9975_064014026c42 "69.2"^^xsd:string .
 
 method:BrinellHardness-1 a stream:EMMO_89a32e21_7b1f_4354_9615_e1d0a8810596,
         owl:NamedIndividual ;
     rdfs:label "BrinellHardness-1",
         "Value (hardness brinell)_#1" ;
-    ns11:EMMO_23b579e1_8088_45b5_9975_064014026c42 "69"^^xsd:string .
+    emmo:EMMO_23b579e1_8088_45b5_9975_064014026c42 "69"^^xsd:string .
 
 method:BrinellHardness-2 a stream:EMMO_89a32e21_7b1f_4354_9615_e1d0a8810596,
         owl:NamedIndividual ;
     rdfs:label "BrinellHardness-2",
         "Value (hardness brinell)_#2" ;
-    ns11:EMMO_23b579e1_8088_45b5_9975_064014026c42 "68.9"^^xsd:string .
+    emmo:EMMO_23b579e1_8088_45b5_9975_064014026c42 "68.9"^^xsd:string .
 
 method:BrinellHardness-3 a stream:EMMO_89a32e21_7b1f_4354_9615_e1d0a8810596,
         owl:NamedIndividual ;
     rdfs:label "BrinellHardness-3",
         "Value (hardness brinell)_#3" ;
-    ns11:EMMO_23b579e1_8088_45b5_9975_064014026c42 "69.6"^^xsd:string .
+    emmo:EMMO_23b579e1_8088_45b5_9975_064014026c42 "69.6"^^xsd:string .
 
 stream:EMMO_89a32e21_7b1f_4354_9615_e1d0a8810596 a owl:Class ;
-    ns1:prefLabel "HardnessBrinell"@en .
+    skos:prefLabel "HardnessBrinell"@en .
 
